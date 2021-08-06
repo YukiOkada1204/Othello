@@ -2,7 +2,54 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: teal;
     color : #d45252;
-    margin-right: auto;
-    margin-left : auto;
-    font-size:200%;
+    width: 100%;
+    text-align: center;
   }
+
+h1{
+  font-size: 60px;
+  padding: 10px;
+}
+
+.component-area{
+  display: none;
+}
+
+.component{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: black;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 63px;
+  height: 63px;
+  background-color: darkgreen;
+}
+
+
+.color{
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: black;
+}
+
+img.white{
+  display: block;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  width: 63px;
+  height: 63px;
+}
+
+img.black{
+  display: block;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  width: 63px;
+  height: 63px;
+}

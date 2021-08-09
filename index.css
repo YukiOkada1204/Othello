@@ -20,13 +20,17 @@ h1{
   width: 65px;
   height: 65px;
   background-color: black;
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  width: 63px;
-  height: 63px;
-  background-color: darkgreen;
 }
+
+.green{
+position: absolute;
+top: 1px;
+left: 1px;
+width: 63px;
+height: 63px;
+background-color: darkgreen;
+}
+
 
 
 .color{
